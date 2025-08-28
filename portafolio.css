@@ -1,0 +1,133 @@
+html {
+    background-color: aliceblue ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#introduccion {
+    color: rgb(0, 0, 105);
+text-align: center;
+}
+
+#temas {
+    color: rgb(0, 0, 105);
+text-align: center;
+}
+
+#apoyo {
+    color: rgb(0, 0, 105);
+text-align: center;
+}
+
+#apoyo span {
+    color: red;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.cuadro {
+    border:rgb(0, 0, 105) 5px outset;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 105);
+}
+
+.presentacion {
+    margin: 20px;
+    padding: 20px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_3t/11615.png);
+    background-clip: padding-box;
+    color: aliceblue;
+    text-align: center;
+}
+
+.presentacion {
+    color: aliceblue;
+    text-align: center;
+}
+
+.tecnica {
+    margin: 20px;
+    padding: 20px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_3t/11615.png);
+    background-clip: padding-box;
+    color: aliceblue;
+    text-align: center;
+}
+
+.tecnica table{
+     margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px 15px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+em.especial {
+            background: rgb(0, 0, 105);
+            border: 2px solid rgb(0, 153, 255);
+            padding: .2em;
+}
+
+.comptrans {
+    margin: 20px;
+    padding: 20px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_3t/11615.png);
+    background-clip: padding-box;
+    color: aliceblue;
+    text-align: center;
+}
+
+.imagen-responsiva {
+    width: 100%;
+    height: auto;
+    border:rgb(0, 0, 105) 5px outset;
+    margin: 10px 0;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 1.4em; }
+    h2 { font-size: 1.1em; }
+    h3, p { font-size: 0.9em; }
+
+    .cuadro, .tecnica, .comptrans {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        font-size: 12px;
+    }
+
+    .grid-2 {
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) {
+    h1 { font-size: 2.2em; }
+    h2 { font-size: 1.6em; }
+    h3, p { font-size: 1.1em; }
+
+    .presentacion, .tecnica, .comptrans {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+
